@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Math Cafe - Results</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
+<head>
+	<title>Результаты формы</title>
+</head>
 <body>
-	<h2>Results</h2>
-	
+	<h2>Результаты формы</h2>
 	<?php
 		if($_SERVER["REQUEST_METHOD"] == "POST") {
 			$name = $_POST['name'];
