@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Результаты формы</title>
+	<title>Results</title>
 </head>
 <body>
-	<h2>Результаты формы</h2>
+	<h2>Results</h2>
 	<?php
 		if($_SERVER["REQUEST_METHOD"] == "POST") {
 			$name = $_POST['name'];
