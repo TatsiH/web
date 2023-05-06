@@ -91,9 +91,10 @@ footer {
 }
 
 
-
 form {
 margin: 30px;
+margin-top: 20px;
+margin-bottom: 20px;
 }
 
 label {
