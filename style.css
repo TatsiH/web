@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header-logo img {
+  height: 70px;
+}
+
+nav {
+  float: left;
+  width: 200px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  background-color: #eee;
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+main {
+  margin-left: 220px;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+/* Table */
+table {
+  width: 80%; /* Растягиваем таблицу на всю ширину родительского блока */
+  border-collapse: collapse; /* Объединяем рамки ячеек */
+  margin-bottom: 30px; /* Добавляем отступ снизу */
+}
+
+th, td {
+  padding: 30px; /* Добавляем отступы в ячейках */
+  text-align: left; /* Выравниваем текст по левому краю */
+  border: 1px solid #ddd; /* Добавляем рамку вокруг ячеек */
+}
+
+th {
+  background-color: #f2f2f2; /* Задаем фон для заголовков таблицы */
+}
+
+/* Стилизация фотографий в таблице */
+table img {
+  max-width: 100%; /* Максимальная ширина картинки равна ширине ячейки таблицы */
+  height: auto; /* Высота картинки рассчитывается автоматически */
+  display: block; /* Делаем картинку блочным элементом */
+  margin: 0 auto; /* Выравниваем по центру ячейки */
+}
+
+
+
+
+img {
+  max-width: 100%;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* стили для формы */
+form {
+margin: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="number"] {
+    width: 10%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="button"]:hover {
+    background-color: #3e8e41;
+}
