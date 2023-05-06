@@ -109,7 +109,7 @@ input[type="number"] {
     border: 1px solid #ccc;
 }
 
-button[type="button"] {
+button[type="button"],input[type="submit"]  {
     background-color: #4CAF50;
     color: white;
     padding: 8px 20px;
@@ -118,6 +118,7 @@ button[type="button"] {
     cursor: pointer;
 }
 
-button[type="button"]:hover {
+
+button[type="button"],input[type="submit"] :hover {
     background-color: #3e8e41;
 }
