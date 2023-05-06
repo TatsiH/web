@@ -53,32 +53,30 @@ h1, h2 {
   font-weight: normal;
 }
 
-/* Table */
+
 table {
-  width: 80%; /* Растягиваем таблицу на всю ширину родительского блока */
-  border-collapse: collapse; /* Объединяем рамки ячеек */
-  margin-bottom: 30px; /* Добавляем отступ снизу */
+  width: 80%; 
+  border-collapse: collapse; 
+  margin-bottom: 40px; 
 }
 
 th, td {
-  padding: 30px; /* Добавляем отступы в ячейках */
-  text-align: left; /* Выравниваем текст по левому краю */
-  border: 1px solid #ddd; /* Добавляем рамку вокруг ячеек */
+  padding: 30px; 
+  text-align: left; 
+  border: 1px solid #ddd; 
 }
 
 th {
-  background-color: #f2f2f2; /* Задаем фон для заголовков таблицы */
+  background-color: #f2f2f2; 
 }
 
-/* Стилизация фотографий в таблице */
+
 table img {
-  max-width: 100%; /* Максимальная ширина картинки равна ширине ячейки таблицы */
-  height: auto; /* Высота картинки рассчитывается автоматически */
-  display: block; /* Делаем картинку блочным элементом */
-  margin: 0 auto; /* Выравниваем по центру ячейки */
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
 }
-
-
 
 
 img {
@@ -88,14 +86,14 @@ img {
 footer {
   background-color: #333;
   color: #fff;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
 }
 
 
-/* стили для формы */
+
 form {
-margin: 20px;
+margin: 30px;
 }
 
 label {
@@ -104,7 +102,7 @@ label {
 }
 input[type="number"] {
     width: 10%;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
 }
@@ -112,9 +110,9 @@ input[type="number"] {
 button[type="button"],input[type="submit"]  {
     background-color: #4CAF50;
     color: white;
-    padding: 8px 20px;
+    padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 8x;
     cursor: pointer;
 }
 
